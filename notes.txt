@@ -1,0 +1,76 @@
+single pg app contains only 1 html file
+where multipgae apps conatins multiple html files
+single page apps contains no page reload and refresh and for multipage viceversa
+react is used for single page apps.
+-------
+what is virtual DOM?
+--virtual dom is a virtual representation of a UI which is kept in the memory later synced with real DOM with the help of a librray called "reactDOM" library.
+--the updation of realdom with virtualdom.
+--the entrire process of updating realdom with help of virtual dom is called "reconcialation".
+
+jsx:javascript xml
+jsx is a syntax extension for javascript used to create html-like markup in the react.
+-actual way to create an elemnt in react is called as:
+    -React.createElement('tagname',{property:"value"}/null,content/children)
+
+jsx doesnt belong to react.but its recommended to using jsx in react.
+-------
+rules for jsx:
+**********
+-every ele irrespective of paired/unpaired tag should be closed.
+ex:<h1></h1>,<input/>
+-should have only one root element.
+-more than 1 jsx ele is used then it must be wrapped with one parent ele.
+ex:<div><h1></h1><p></p></div>
+---------
+-jsx expression is used to call variable,mathematical expression,functions etc inside the element.
+************************
+components :
+__________
+
+components are the building blocks of react app.
+components are the reusable piece of code.
+components are the file sthat contains js related topics that r reusable
+types of components: 1.class based (cbc)2.functional based components(fbc)
+1.CBC:
+cbc is similar to js es6 class.
+cbc is used to create a stateful component.
+2.FBC:
+fbc is similar to js function.
+fbc is used to create a stateless component.{bcz there is no state obj until react v16.8}
+--
+syntax for cbc:
+***************
+ class App extends from React.Component{
+     render(){//render method is mandate here
+         return(
+             <div>
+                 <h1>hello</h1>
+             </div>
+         )
+     }
+ }
+ export default App;
+ ---------------
+syntax for fbc:
+***************
+    function App(){
+        return(
+            <div>
+                <h1>hello</h1>
+            </div>
+        )
+    }  
+    export default App;
+      OR
+     const App = () => {
+     return (
+     <div>
+        <h1>hello</h1>
+        </div>
+        )
+    }
+    export default App;
+
+    ------------
+    
