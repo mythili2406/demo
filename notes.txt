@@ -73,4 +73,16 @@ syntax for fbc:
     export default App;
 
     ------------
+    component composition:
+    ______________________
+    component composition is used to combine multiple components into one application.
+    ---
+    props:
+    ******
+    props is nothing but properties similar to html attributes.
+    props is an object.
+    props is an object used to exchange info or data from parent to child component
     
+
+
+
