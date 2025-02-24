@@ -1,0 +1,48 @@
+1.the moving of element with x axis is called css flex.
+2.x axis is also called main axis
+3.css flex is 1-d.
+4.by default css flex is responsive.
+5.execution of programs in any device is termed as repsonsiveness.
+6.to work with flex parent and child relation is mandate.
+css flex properties:
+***********
+1.display  :flex
+ it is used to convert block level/col element to inline/row elements.
+2.gap
+it is used to add space between html elements.
+ex:-gap:20px
+3.justify-content:  flex-start/flex-end/center/space-between/space-around/space-evenly
+
+its used to mobve html elements in x axis/main axis.
+default value=flex-start(flex-s)
+
+4.align-items: flex-start/flex-end/center/baseline/stretch
+it is used to move html elements in y axis/cross axis.
+default value=stretch(flex-s)
+height property is mandate to work with align-items
+
+5.flex-direction: row/column/row-reverse/column-reverse
+
+it is used to change the direction of html elements/flex items.
+default value=row(flex-s)
+
+6.order:
+it is used to change the order of html elements/flex items.
+default value=0(flex-s) ex:order:1
+
+7.flex-wrap:wrap/nowrap:-
+it is used to wrap html elements/flex items.
+default =nowrap
+
+8.flex-basis:
+used to specify width to html elments
+ex:-flex-basis:30%;
+
+9.flex-grow:
+its used to grow/expand proportion to a particular element
+ex:-flex-grow:1;
+
+10.flex-shrink:
+it is used to shrink/reduce/compress  proportion to a particular item
+ex- flex-shrink:2;
+
